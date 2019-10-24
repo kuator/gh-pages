@@ -1,0 +1,169 @@
+:root {
+  --background: indianred;
+  --alternative-background: white;
+  --main-color: indianred;
+  --text-color: white;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: var(--background);
+  position: fixed;
+  height: 70px;
+  width: 100%;
+}
+
+.container {
+  display: block;
+  width: 92%;
+  margin: auto;
+  background: none;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  display:block;
+}
+
+.logo-wrapper {
+  margin-left: 20px;
+}
+
+.nav-controls {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+  background-color: var(--background);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background);
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top:100%;
+  transition: background-color 0.2s ease;
+  transition: max-height 0.5s ease;
+  max-height: 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: var(--background);
+}
+
+.nav-link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.nav-item {
+  text-align: center;
+  margin: auto;
+  padding: 15px 0;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.burger {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline;
+  right: 20px;
+  cursor: pointer; 
+  color: var(--alternative-background);
+  font-size: 24px;
+}
+
+.burger-line {
+  width: 20px;
+  margin-bottom: 4px;
+  height: 3px;
+  background: var(--alternative-background);
+}
+
+.navbar-toggle:checked + .navbar{
+  max-height: 300px;
+  transition: max-height 0.5s ease;
+}
+
+
+
+@media screen and (min-width: 768px){
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    align-items: center;
+    flex-direction: row;
+    top:0;
+    position: relative;
+  }
+
+  .navbar {
+    max-height:initial ;
+    position: relative;
+    top: 0;
+  }
+
+  .nav-controls{
+    background-color: initial;
+  }
+
+  .nav-list {
+    max-height: initial;
+    background-color: initial;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .nav-item {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-link {
+    transition: all 0.2s ease;
+    padding: 20px 15px;
+    display: block;
+  }
+
+  .logo-wrapper {
+    margin-top: 0;
+  }
+
+  .burger{
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-link:hover {
+    color: var(--text-color);
+  }
+
+  .nav-item:hover .nav-link {
+    background-color: var(--alternative-background);
+    color: var(--main-color);
+  }
+}
