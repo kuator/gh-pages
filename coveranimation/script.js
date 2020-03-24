@@ -1,18 +1,6 @@
-function ready(fn) {
-  if (document.readyState != 'loading'){
-    fn();
-  } else {
-    document.body.style = 'display:none;color: black;'
-    document.write('Loading');
-    document.addEventListener('DOMContentLoaded', fn);
-  }
-}
-
-function myFunction() {
-    ready(function() {
-      document.body.style = 'display:block;color: initial;'
-    })
-}
-
-myFunction();
 console.log('asdfasdf');
+document.body.style = 'display:none;color: black;'
+
+window.addEventListener('load', function () {
+  document.body.style = 'display:block;color: initial;'
+})
