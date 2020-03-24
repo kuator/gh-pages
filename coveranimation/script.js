@@ -10,7 +10,7 @@ function ready(fn) {
 
 function myFunction() {
     ready(function() {
-      document.body.style = 'display:block;display:none;color: initial;'
+      document.body.style = 'display:block;color: initial;'
     })
 }
 
