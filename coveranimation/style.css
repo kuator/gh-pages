@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  overflow: hidden;
+}
+
+main section {
+  width: 100%;
+  height: 100vh;
+  background-color: #a61526;
+  position: relative;
+}
+
+.container {
+  height: 72%;
+  width: 80%;
+  max-width: 920px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: arial;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: white;
+  text-transform: uppercase;
+  background: #181a1b;
+  animation: moveup 12s ease-in-out infinite;
+  position: absolute;
+  top:110%;
+}
+
+.container p {
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width:100%;
+  animation: movetocenter 12s ease-in-out infinite;
+}
+
+.container figure {
+  height: 100%;
+  animation: moveup 12s ease-in-out infinite;
+  width: 50%;
+  position: absolute;
+}
+
+.container .first-motto {
+  animation-delay: 0s;
+  left: 0;
+  top: 100%;
+}
+
+.first-motto p{
+  animation-delay: 0s;
+}
+
+.container .first-img {
+  animation-delay: 1s;
+  left: 50%;
+  top: 110%;
+}
+
+.container .second-motto {
+  animation-delay: 5s;
+  top: 110%;
+  left: 50%;
+}
+
+.second-motto p{
+  animation-delay: 5s;
+}
+
+.container .second-img {
+  animation-delay: 4.5s;
+  top: 110%;
+  left: 0;
+}
+
+
+.container .third-motto {
+  animation-delay: 8s;
+  left: 0;
+  top: 110%;
+}
+
+.third-motto p{
+  animation-delay: 8s;
+}
+
+.container .third-img {
+  animation-delay: 8.5s;
+  left: 50%;
+  top: 110%;
+}
+
+@keyframes moveup {
+  0% {
+    top: 110%;
+    height:0%;
+  }
+  10% {
+    top: 0.5%;
+    height:100%;
+  }
+  23% {
+    top:initial;
+    bottom: -0.5%;
+    height:100%;
+  }
+  33.333333333% {
+    /* top: -110%; */
+    bottom: 110%;
+    height:0;
+  }
+  33.333333334% {
+    /* top: 110%; */
+    /* bottom: -110% */
+  }
+}
+
+
+@keyframes movetocenter {
+  0% {
+    top: 70%;
+  }
+  18% {
+    top: 50%;
+  }
+  22% {
+    top: 49%;
+  }
+  33.333333333% {
+    top: 0%;
+  }
+}
+
+
+.warning {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  .container { 
+    display: none; 
+  }
+  .warning {
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    width: 80%;
+    background: black;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-family: arial;
+  }
+}
+
+/* @media only screen and (max-width: 768px) { */
+/*   .container { */
+/*      width:100%; */
+/*   } */
+
+
+/*   .container .first-motto, */
+/*   .container .second-motto, */
+/*   .container .third-motto { */
+/*     width: 0; */
+/*     display: none; */
+/*     height: 100%; */
+/*     position: absolute; */
+/*     left: 0; */
+/*   } */
+
+/*   .container .first-img, */
+/*   .container .second-img, */
+/*   .container .third-img { */
+/*     height: 100%; */
+/*     width: 100%; */
+/*     position: absolute; */
+/*     left: 0; */
+/*   } */
+
+/*   @keyframes moveup { */
+/*     0% { */
+/*       top: 110%; */
+/*       height:100%; */
+/*     } */
+/*     10% { */
+/*       top: 0.5%; */
+/*       height:100%; */
+/*     } */
+/*     23% { */
+/*       top:initial; */
+/*       bottom: -0.5%; */
+/*       height:100%; */
+/*     } */
+/*     33.333333333% { */
+/*       bottom: 110%; */
+/*       height:100%; */
+/*     } */
+/*     33.333333334% { */
+/*     } */
+/*   } */
+/* } */
