@@ -3,6 +3,10 @@ body {
   background-color: #a61526;
 }
 
+html {
+  background-color: #a61526;
+}
+
 * {
   margin: 0;
   padding: 0;
