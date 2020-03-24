@@ -10,7 +10,7 @@ function ready(fn) {
 
 function myFunction() {
     ready(function() {
-      document.body.style = 'display:block;'
+      // document.body.style = 'display:block;'
     })
 }
 
