@@ -37,7 +37,7 @@ main section {
 
 img {
   display: block;
-  width: 370px;
+  width: 400px;
   height: 500px;
   object-fit: cover;
   object-position: center;
