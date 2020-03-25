@@ -28,6 +28,7 @@ main section {
   height: 72%;
   width: 80%;
   max-width: 920px;
+  max-height: 500px;
   position: absolute;
   top: 50%;
   left: 50%;
