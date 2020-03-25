@@ -65,7 +65,7 @@ img {
 }
 
 .container p {
-  padding: 10px;
+  padding: 12px;
   position: absolute;
   top:50%;
   transform: translateY(-50%);
