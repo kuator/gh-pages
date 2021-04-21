@@ -1,0 +1,8 @@
+// Set HiDPI (Retina) image sizes and background.
+//
+//   .button
+//      +hidpi-image("nice/button.png")
+@mixin hidpi-image($path)
+  +image-size($path, 2)
+  +hidpi-background($path)
+  background-repeat: no-repeat
