@@ -1,39 +1,37 @@
-/* line 14, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 body {
   display: flex;
   align-items: center;
   align-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   padding: 1vw;
   gap: 1vw;
-  max-width: 1000px;
 }
 
-/* line 38, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 figure {
   position: relative;
   overflow: hidden;
   top: 0;
   left: 0;
-  max-height: 25vh;
   height: 13.34524vw;
 }
 
-/* line 49, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 figure > .image {
   position: relative;
   max-width: 1365px;
@@ -44,12 +42,12 @@ figure > .image {
   animation-fill-mode: forwards;
   background-repeat: no-repeat;
   background-image: url("../images/ararak.jpg");
-  background-size: 100vw 56.19048vw;
+  background-size: 95vw 53.38095vw;
   animation-timing-function: ease-in-out;
   height: 100%;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(1) .image {
   background-position: 0vw 0vw;
   animation-name: slideIn;
@@ -58,135 +56,135 @@ figure:nth-of-type(1) .image {
   animation-delay: 0s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(2) .image {
-  background-position: -24.5vw 0vw;
+  background-position: -24.75vw 0vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 0.1s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(3) .image {
-  background-position: -49vw 0vw;
+  background-position: -49.5vw 0vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 0.2s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(4) .image {
-  background-position: -73.5vw 0vw;
+  background-position: -74.25vw 0vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 0.3s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(5) .image {
-  background-position: 0vw -13.76667vw;
+  background-position: 0vw -14.34524vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 0.4s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(6) .image {
-  background-position: -24.5vw -13.76667vw;
+  background-position: -24.75vw -14.34524vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 0.5s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(7) .image {
-  background-position: -49vw -13.76667vw;
+  background-position: -49.5vw -14.34524vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 0.6s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(8) .image {
-  background-position: -73.5vw -13.76667vw;
+  background-position: -74.25vw -14.34524vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 0.7s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(9) .image {
-  background-position: 0vw -27.53333vw;
+  background-position: 0vw -28.69048vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 0.8s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(10) .image {
-  background-position: -24.5vw -27.53333vw;
+  background-position: -24.75vw -28.69048vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 0.9s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(11) .image {
-  background-position: -49vw -27.53333vw;
+  background-position: -49.5vw -28.69048vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 1s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(12) .image {
-  background-position: -73.5vw -27.53333vw;
+  background-position: -74.25vw -28.69048vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 1.1s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(13) .image {
-  background-position: 0vw -41.3vw;
+  background-position: 0vw -43.03571vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 1.2s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(14) .image {
-  background-position: -24.5vw -41.3vw;
+  background-position: -24.75vw -43.03571vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 1.3s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(15) .image {
-  background-position: -49vw -41.3vw;
+  background-position: -49.5vw -43.03571vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 1.4s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 figure:nth-of-type(16) .image {
-  background-position: -73.5vw -41.3vw;
+  background-position: -74.25vw -43.03571vw;
   animation-name: slideIn;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -236,9 +234,235 @@ figure:nth-of-type(16) .image {
     background-image: url("../images/ararak.jpg");
   }
 }
-@media (min-width: 1017px) {
-  /* line 104, ../sass/style.scss */
+@media screen and (min-aspect-ratio: 1365 / 767) {
+  /* line 121, ../sass/style.scss */
   body {
-    display: none;
+    display: flex;
+    background-color: tomato;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    justify-content: center;
+  }
+
+  /* line 130, ../sass/style.scss */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 1vh;
+    gap: 1vh;
+  }
+
+  /* line 141, ../sass/style.scss */
+  figure {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 23.75vh;
+    width: 42.26695vh;
+  }
+
+  /* line 153, ../sass/style.scss */
+  figure > .image {
+    position: relative;
+    width: 169.0678vh;
+    top: 100%;
+    left: 0;
+    animation-fill-mode: forwards;
+    background-repeat: no-repeat;
+    background-image: url("../images/ararak.jpg");
+    background-size: 169.0678vh 95vh;
+    animation-timing-function: ease-in-out;
+    height: 100%;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(1) .image {
+    background-position: 0vh 0vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(2) .image {
+    background-position: -43.26695vh 0vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.1s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(3) .image {
+    background-position: -86.5339vh 0vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(4) .image {
+    background-position: -129.80085vh 0vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(5) .image {
+    background-position: 0vh -24.75vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(6) .image {
+    background-position: -43.26695vh -24.75vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(7) .image {
+    background-position: -86.5339vh -24.75vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(8) .image {
+    background-position: -129.80085vh -24.75vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.7s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(9) .image {
+    background-position: 0vh -49.5vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.8s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(10) .image {
+    background-position: -43.26695vh -49.5vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.9s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(11) .image {
+    background-position: -86.5339vh -49.5vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(12) .image {
+    background-position: -129.80085vh -49.5vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.1s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(13) .image {
+    background-position: 0vh -74.25vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.2s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(14) .image {
+    background-position: -43.26695vh -74.25vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.3s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(15) .image {
+    background-position: -86.5339vh -74.25vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.4s;
+  }
+
+  /* line 174, ../sass/style.scss */
+  figure:nth-of-type(16) .image {
+    background-position: -129.80085vh -74.25vh;
+    animation-name: slideIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+  }
+
+  @keyframes slideIn {
+    0% {
+      top: 100%;
+    }
+    5% {
+      top: 0%;
+      left: 0;
+    }
+    30% {
+      top: 0%;
+      left: 0;
+    }
+    40% {
+      left: 100%;
+      top: 0;
+    }
+    40.00001% {
+      left: 0;
+      top: 100%;
+      background-image: url("../images/ararak.jpg");
+    }
+    45.00001% {
+      left: 0;
+      top: 100%;
+      background-image: url("../images/karen.jpg");
+    }
+    55% {
+      top: 0%;
+      background-image: url("../images/karen.jpg");
+    }
+    75% {
+      top: 0%;
+      background-image: url("../images/karen.jpg");
+    }
+    95% {
+      top: 100%;
+      background-image: url("../images/karen.jpg");
+    }
+    100% {
+      top: 100%;
+      background-image: url("../images/ararak.jpg");
+    }
   }
 }
