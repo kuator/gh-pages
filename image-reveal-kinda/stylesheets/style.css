@@ -11,9 +11,10 @@ body {
   align-items: center;
   align-content: center;
   min-height: 100vh;
+  background-color: tomato;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -22,7 +23,7 @@ body {
   gap: 1vw;
 }
 
-/* line 43, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 figure {
   position: relative;
   overflow: hidden;
@@ -31,7 +32,7 @@ figure {
   height: 13.34524vw;
 }
 
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 figure > .image {
   position: relative;
   max-width: 1365px;
@@ -47,7 +48,7 @@ figure > .image {
   height: 100%;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(1) .image {
   background-position: 0vw 0vw;
   animation-name: slideIn;
@@ -56,7 +57,7 @@ figure:nth-of-type(1) .image {
   animation-delay: 0s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(2) .image {
   background-position: -24.75vw 0vw;
   animation-name: slideIn;
@@ -65,7 +66,7 @@ figure:nth-of-type(2) .image {
   animation-delay: 0.1s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(3) .image {
   background-position: -49.5vw 0vw;
   animation-name: slideIn;
@@ -74,7 +75,7 @@ figure:nth-of-type(3) .image {
   animation-delay: 0.2s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(4) .image {
   background-position: -74.25vw 0vw;
   animation-name: slideIn;
@@ -83,7 +84,7 @@ figure:nth-of-type(4) .image {
   animation-delay: 0.3s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(5) .image {
   background-position: 0vw -14.34524vw;
   animation-name: slideIn;
@@ -92,7 +93,7 @@ figure:nth-of-type(5) .image {
   animation-delay: 0.4s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(6) .image {
   background-position: -24.75vw -14.34524vw;
   animation-name: slideIn;
@@ -101,7 +102,7 @@ figure:nth-of-type(6) .image {
   animation-delay: 0.5s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(7) .image {
   background-position: -49.5vw -14.34524vw;
   animation-name: slideIn;
@@ -110,7 +111,7 @@ figure:nth-of-type(7) .image {
   animation-delay: 0.6s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(8) .image {
   background-position: -74.25vw -14.34524vw;
   animation-name: slideIn;
@@ -119,7 +120,7 @@ figure:nth-of-type(8) .image {
   animation-delay: 0.7s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(9) .image {
   background-position: 0vw -28.69048vw;
   animation-name: slideIn;
@@ -128,7 +129,7 @@ figure:nth-of-type(9) .image {
   animation-delay: 0.8s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(10) .image {
   background-position: -24.75vw -28.69048vw;
   animation-name: slideIn;
@@ -137,7 +138,7 @@ figure:nth-of-type(10) .image {
   animation-delay: 0.9s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(11) .image {
   background-position: -49.5vw -28.69048vw;
   animation-name: slideIn;
@@ -146,7 +147,7 @@ figure:nth-of-type(11) .image {
   animation-delay: 1s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(12) .image {
   background-position: -74.25vw -28.69048vw;
   animation-name: slideIn;
@@ -155,7 +156,7 @@ figure:nth-of-type(12) .image {
   animation-delay: 1.1s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(13) .image {
   background-position: 0vw -43.03571vw;
   animation-name: slideIn;
@@ -164,7 +165,7 @@ figure:nth-of-type(13) .image {
   animation-delay: 1.2s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(14) .image {
   background-position: -24.75vw -43.03571vw;
   animation-name: slideIn;
@@ -173,7 +174,7 @@ figure:nth-of-type(14) .image {
   animation-delay: 1.3s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(15) .image {
   background-position: -49.5vw -43.03571vw;
   animation-name: slideIn;
@@ -182,7 +183,7 @@ figure:nth-of-type(15) .image {
   animation-delay: 1.4s;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 figure:nth-of-type(16) .image {
   background-position: -74.25vw -43.03571vw;
   animation-name: slideIn;
@@ -235,7 +236,7 @@ figure:nth-of-type(16) .image {
   }
 }
 @media screen and (min-aspect-ratio: 1365 / 767) {
-  /* line 121, ../sass/style.scss */
+  /* line 122, ../sass/style.scss */
   body {
     display: flex;
     background-color: tomato;
@@ -245,7 +246,7 @@ figure:nth-of-type(16) .image {
     justify-content: center;
   }
 
-  /* line 130, ../sass/style.scss */
+  /* line 131, ../sass/style.scss */
   .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -254,7 +255,7 @@ figure:nth-of-type(16) .image {
     gap: 1vh;
   }
 
-  /* line 141, ../sass/style.scss */
+  /* line 142, ../sass/style.scss */
   figure {
     position: relative;
     overflow: hidden;
@@ -264,7 +265,7 @@ figure:nth-of-type(16) .image {
     width: 42.26695vh;
   }
 
-  /* line 153, ../sass/style.scss */
+  /* line 154, ../sass/style.scss */
   figure > .image {
     position: relative;
     width: 169.0678vh;
@@ -278,7 +279,7 @@ figure:nth-of-type(16) .image {
     height: 100%;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(1) .image {
     background-position: 0vh 0vh;
     animation-name: slideIn;
@@ -287,7 +288,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 0s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(2) .image {
     background-position: -43.26695vh 0vh;
     animation-name: slideIn;
@@ -296,7 +297,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 0.1s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(3) .image {
     background-position: -86.5339vh 0vh;
     animation-name: slideIn;
@@ -305,7 +306,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 0.2s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(4) .image {
     background-position: -129.80085vh 0vh;
     animation-name: slideIn;
@@ -314,7 +315,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 0.3s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(5) .image {
     background-position: 0vh -24.75vh;
     animation-name: slideIn;
@@ -323,7 +324,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 0.4s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(6) .image {
     background-position: -43.26695vh -24.75vh;
     animation-name: slideIn;
@@ -332,7 +333,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 0.5s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(7) .image {
     background-position: -86.5339vh -24.75vh;
     animation-name: slideIn;
@@ -341,7 +342,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 0.6s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(8) .image {
     background-position: -129.80085vh -24.75vh;
     animation-name: slideIn;
@@ -350,7 +351,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 0.7s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(9) .image {
     background-position: 0vh -49.5vh;
     animation-name: slideIn;
@@ -359,7 +360,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 0.8s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(10) .image {
     background-position: -43.26695vh -49.5vh;
     animation-name: slideIn;
@@ -368,7 +369,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 0.9s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(11) .image {
     background-position: -86.5339vh -49.5vh;
     animation-name: slideIn;
@@ -377,7 +378,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 1s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(12) .image {
     background-position: -129.80085vh -49.5vh;
     animation-name: slideIn;
@@ -386,7 +387,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 1.1s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(13) .image {
     background-position: 0vh -74.25vh;
     animation-name: slideIn;
@@ -395,7 +396,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 1.2s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(14) .image {
     background-position: -43.26695vh -74.25vh;
     animation-name: slideIn;
@@ -404,7 +405,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 1.3s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(15) .image {
     background-position: -86.5339vh -74.25vh;
     animation-name: slideIn;
@@ -413,7 +414,7 @@ figure:nth-of-type(16) .image {
     animation-delay: 1.4s;
   }
 
-  /* line 174, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   figure:nth-of-type(16) .image {
     background-position: -129.80085vh -74.25vh;
     animation-name: slideIn;
